@@ -1,0 +1,13 @@
+name: cid pipeline for testing
+
+on:
+  push:
+    branches:
+        - main
+
+job:
+  jobs:
+    runs-on: ubuntu-lates
+    steps:
+      - name: print Hello world
+        run:  echo "Hello World"

@@ -5,9 +5,9 @@ on:
     branches:
         - main
 
-job:
-  jobs:
-    runs-on: ubuntu-lates
+jobs:
+  job1:
+    runs-on: ubuntu-latest
     steps:
       - name: print Hello world
         run:  echo "Hello World"

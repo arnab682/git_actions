@@ -11,3 +11,12 @@ jobs:
     steps:
       - name: print Hello world
         run:  echo "Hello World"
+
+      - name: Clone The Repo
+        run:  actions/checkout@v4
+
+      - name: List everything
+        run:  ls
+       
+      - name: Print the content of hello.txt
+        run:  cat hello.txt
